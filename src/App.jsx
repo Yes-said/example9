@@ -1,16 +1,15 @@
-import React from 'react';
-import Navbar from './Components/Navbar';
-
+import React, { Component } from 'react';
+import './App.css'
+import Navbar from './Components/Navbar'
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Navbar />
-      <div className="container mt-4">
-        <h1>Welcome to Student Result Management System</h1>
-        {/* Your main content goes here */}
+      <div className="content">
+        {/* Your content goes here */}
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
