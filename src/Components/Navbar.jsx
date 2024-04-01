@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-brand">
           {/* Your brand/logo component */}
-          <a href="/">Logo</a>
+         
         </div>
         <div className="navbar-items">
           {/* Navbar items */}
