@@ -8,6 +8,7 @@
   
   .content {
     padding: 20px;
+    flex: 1; 
   }
   
   /* Responsive Navbar styles */
