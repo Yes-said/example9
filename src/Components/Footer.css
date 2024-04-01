@@ -1,7 +1,7 @@
 .footer {
     background-color:blue;
     color: #fff;
-    padding: 50px 0;
+    padding: 0;
   }
   
   .container {
@@ -34,11 +34,11 @@
   }
   
   .footer__contact {
-    margin-top: 20px;
+    margin-top: 1px;
   }
   
   .footer__contact p {
-    margin: 5px 0;
+    margin: 20px 0;
   }
   
   /* Media Query for Responsive Footer */
