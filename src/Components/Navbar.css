@@ -12,7 +12,7 @@
 }
 
 .navbar-brand a {
-  color: white;
+  color: gray;
   font-weight: bold;
   text-decoration: none;
 }
@@ -20,9 +20,14 @@
 .navbar-items a {
   color: white;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
-
+.navbar-items a:hover {
+  color:black; 
+}
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: row;
